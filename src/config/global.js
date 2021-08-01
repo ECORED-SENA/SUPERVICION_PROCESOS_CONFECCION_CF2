@@ -81,14 +81,62 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Cálculo de consumo de materiales e insumos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Cálculo de consumo unitario',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Cálculo de consumo por lote',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Inventario',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Políticas empresariales de inventarios',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Sistemas de inventarios',
+            hash: 't_6_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.3',
+            titulo: 'Funciones del inventario',
+            hash: 't_6_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.4',
+            titulo: 'Tipos de inventarios',
+            hash: 't_6_4',
+          },
+        ],
+      },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -119,134 +167,160 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Arrechedora, I. (2020). Gestión de inventarios: concepto, tipos, modelos y ejemplos. Lifeder.',
+      link: 'https://www.lifeder.com/gestion-inventarios/',
+    },
+
+    {
+      referencia:
+        'Chi, B. (2020, 19 Nov). Ficha Técnica en moda: ¿qué es y por qué usarla? [Blog]. SeamPedia.com',
+      link: 'https://seampedia.com/ficha-tecnica-en-moda/',
+    },
+
+    {
+      referencia:
+        'Chi, B. (2020, 26 Nov). Ficha Técnica en moda: ¿qué información incluir? [Blog]. SeamPedia.com',
+      link: 'https://seampedia.com/ficha-tecnica-en-moda/',
+    },
+
+    {
+      referencia:
+        'Calderón Rojas, C. (2020).  Fundamentación textil, hilaturas e hilos. Material formativo para el Programa Tecnólogo en desarrollo de colecciones para la industria de la moda.',
+    },
+
+    {
+      referencia:
+        'Canal Fondo Esperanza. (2019). Como hacer un buen inventario, aprendo y emprendo. [Archivo de video] YouTube.',
+      link: 'https://www.youtube.com/watch?v=s_GBs0V4cR0',
+    },
+
+    {
+      referencia:
+        'Depositphotos. (2017). Fibras de material azul enlazadas. Blog fotos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://sp.depositphotos.com/177910842/stock-photo-linked-blue-material-fibers.html',
     },
+
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Hancco Machaca, M. (2018) Tutorial requerimientos materia prima y consumo. [Archivo de video] YouTube',
+      link: 'https://www.youtube.com/watch?v=CEKjA_UsvnQ',
+    },
+
+    { referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos.' },
+
+    {
+      referencia:
+        'SENA. (2021). Componente formativo 14. Materiales e insumos para vestuario. Programa Tecnólogo en desarrollo de colecciones para la industria de la moda.',
+    },
+
+    {
+      referencia:
+        'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda. Recuperado de',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://drive.google.com/file/d/0B0cUWYMxp4Tmb25Qal8yYzl0U1E/view?usp=sharing&resourcekey=0-tonU5rMv8Vs06Ef_RErNDQ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ancho de la tela:',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Longitud determinada por la longitud de los hilos a lo ancho del telar, trama.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Calidad:',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de especificaciones a cumplir, para dar satisfacción a una necesidad y expectativa del cliente.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Consumo Promedio:',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Cantidad de materiales e insumos necesarios para la construcción de una prenda de vestir y/ o un servicio del sistema moda.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Investigación:',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Indagar tendencias, colores, procesos, utilizando como fuentes ferias, internet, desfiles. Desarrollo: elaborar prototipos con la anterior información.',
     },
     {
-      termino: 'Moda',
+      termino: 'Ficha Técnica:',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Documento que contiene información que orienta los procesos para construir muestras y lotes de producción.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Marquilla Instrucción lavado:',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Elemento que va fijado en la prenda que contiene información sobre los cuidados que hay que tener al lavar las prendas.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Producción:',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de actividades que agregan valor para obtener un bien o un servicio.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Sistema:',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Conjunto de partes que interactúan, para conseguir el mismo objetivo, con excelente comunicación, y a la misma velocidad.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Tejido:',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de hilos entrelazados, con características de peso, suavidad, composición, y volumen.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Trazo:',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Dibujo de los moldes sobre la tela o sobre un papel que tenga las medidas de la tela que se va a trabajar, en las cantidades y tallas que se requieran.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'O.P.:',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Orden de producción: documento que describe de manera detallada las cantidades de los lotes a producir.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda. ',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_1_Telas_Sena.pdf',
+    },
+    {
+      texto: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos ',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Coats Multisolution (s.f.) Cálculo de consumo de hilo para tejido liviano. ',
+      tipo: 'Documento',
+      descarga:
+        '/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Sipper, D; Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill Interamericana Editores.',
+      tipo: 'E-book/Enlace',
+      link:
+        'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Fondo esperanza (s.f.) Cómo hacer un buen inventario | Aprendo y Emprendo. [Video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/s_GBs0V4cR0',
+    },
+    {
+      texto:
+        'Hancco M. (2018) Tutorial Req Materia Prima y consumo [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/CEKjA_UsvnQ',
+    },
+    {
+      texto:
+        'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476 . IC Editorial. Ebooks 7-24. ',
+      tipo: 'Enlace de biblioteca',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8741 ',
     },
   ],
   creditos: {
