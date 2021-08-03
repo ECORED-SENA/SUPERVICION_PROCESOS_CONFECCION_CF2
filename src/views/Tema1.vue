@@ -16,7 +16,7 @@
     separador
 
     #t_1_1.titulo-segundo(data-aos="zoom-in")
-      .h4 1.1  Materias primas
+      .h2 1.1  Materias primas
 
     p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos.
 
@@ -193,7 +193,7 @@
     separador
 
     #t_1_2.titulo-segundo(data-aos="zoom-in")
-      .h4 1.2 Insumos
+      .h2 1.2 Insumos
 
     .row.justify-content-center.mb-5
       .col-lg-11.border_1
@@ -227,7 +227,7 @@
     separador
 
     #t_1_3.titulo-segundo(data-aos="zoom-in")
-      .h4 1.3  Cadena de valor
+      .h2 1.3  Cadena de valor
 
     .tarjeta--bg2.p-4.mb-5
       .row

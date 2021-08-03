@@ -25,7 +25,7 @@
     separador
 
     #t_5_1.titulo-segundo(data-aos="zoom-in")
-      .h4 5.1  Cálculo de consumo unitario
+      .h2 5.1  Cálculo de consumo unitario
 
     .tarjeta--bg2.p-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
@@ -265,7 +265,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .tarjeta--bg2.p-4(data-aos="zoom-in")
-          p.mb-0.text-center A continuación, se ve el dibujo del trazo cuya longitud es 5,18 metros, y en el cual hay dibujadas 7 tallas, entonces, de acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
+          p.mb-0.text-center A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
 
     p.BorTit(data-aos="zoom-in") Largo del trazo: 5,18 mt
     figure(data-aos="zoom-in")
@@ -275,7 +275,7 @@
     separador
 
     #t_5_2.titulo-segundo(data-aos="zoom-in")
-      .h4 5.2 Cálculo de consumo por lote
+      .h2 5.2 Cálculo de consumo por lote
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
 

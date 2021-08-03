@@ -33,7 +33,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        TabsB(data-aos="flip-up")
+        TabsC(data-aos="flip-up")
           .py-4.py-md-5(titulo="De longitud")
             figure.mb-3
               img(src='@/assets/curso/tema_2/img_1.png', alt="metro")

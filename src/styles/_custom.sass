@@ -1,4 +1,4 @@
-.bg01
+.bg-01
   background-image: url("../assets/curso/tema_1/img_1.png")
   background-size: cover
   background-repeat: no-repeat
@@ -280,3 +280,32 @@
   .tabs-d__tab
     .tabs-d__pre-header
       margin-bottom: 10px
+
+.tabs-c__tab  
+  background-color: #E8E8E8 !important
+  border: 15px solid white !important
+  font-size: 15px !important 
+  min-width: 270px   
+
+.tabs-c__tab--active
+  color: $white
+  background: $color-acento-contenido !important
+  border: 15px solid white !important
+  font-size: 15px !important  
+  min-width: 270px
+
+.tabs-c__tab:hover
+  color: $white
+  background-color: $color-acento-contenido !important
+  border: 15px solid white !important 
+  font-size: 15px !important    
+  min-width: 270px
+
+.tabs-c__tab--active:before 
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent
+  border-right: 0px solid transparent
+  border-top: 10px solid;
+  left: 50%;
+  top: calc(100% + 6px);

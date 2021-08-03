@@ -17,13 +17,13 @@
     separador
 
     #t_4_1.titulo-segundo(data-aos="zoom-in")
-      .h4 4.1 Orden de producción (OP)
+      .h2 4.1 Orden de producción (OP)
 
     p.text-center.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        TabsB(data-aos="flip-up")
+        TabsC(data-aos="flip-up")
           .py-4.py-md-5.tab1(titulo="Número de documento o consecutivo")
             .tarjeta--bg1.p-4
               p.mb-0 para controlar los lotes de producción que se van ejecutando.
@@ -110,7 +110,7 @@
     separador
 
     #t_4_2.titulo-segundo(data-aos="zoom-in")
-      .h4 4.2 Ficha técnica
+      .h2 4.2 Ficha técnica
 
     p.mb-5 Es un documento que le permite al departamento de creación comunicarse con las demás áreas encargadas de la elaboración de productos terminados, en este se especifica:
 
