@@ -20,23 +20,23 @@
 
     p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos.
 
-    .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-right")
-        .nav-holder2(@mouseover="mostrarIndicador = false")
+    .row.justify-content-center.mb-5.d-flex
+      .col-lg-4.d-flex(data-aos="fade-right")
+        .nav-holder2.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema_1/img_3.svg', alt="Materias primas de origen vegetal")
           .text.px-lg-5.p-4
             p.mb-3 Son  extraídas de la naturaleza como plantas, algodón, lino, semillas y transformadas en materiales que se convierten en bienes de consumo.
             p.mb-0 Las principales son el algodón y el lino. Las prendas más comunes que se fabrican con estas fibras son: chaquetas, camisas, pantalones, sacos.
-      .col-lg-4(data-aos="fade-down")
-        .nav-holder3(@mouseover="mostrarIndicador = false")
+      .col-lg-4.d-flex(data-aos="fade-down")
+        .nav-holder3.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema_1/img_4.svg', alt="Materias primas de origen animal")
           .text.px-lg-5.p-4
             p.mb-3 Son  extraídas de animales, como  lana, seda, cueros. Las más utilizadas en el sistema moda son las lanas y las sedas.
             p.mb-0 Desde tiempos prehistóricos el ser humano viene utilizando las fibras, pelos y pieles para la confección de prendas de vestir. 
-      .col-lg-4(data-aos="fade-left")
-        .nav-holder2(@mouseover="mostrarIndicador = false")
+      .col-lg-4.d-flex(data-aos="fade-left")
+        .nav-holder2.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema_1/img_5.svg', alt="Materias primas de origen mineral")
           .text.px-lg-5.p-4
@@ -61,8 +61,8 @@
       .col-lg-10
         TabsB(data-aos="flip-up")
           .py-4.py-md-5.tab1(titulo="Algodón")
-            p.mb-0 Es una fibra textil de origen vegetal, que nace alrededor de las semillas de la planta del mismo nombre, su principal característica es que permite la aireación, lo cual hace que las telas fabricadas con esta fibra, produzcan sensación de frescura al usarlas. Esta fibra permite facilidad de tejer y de mezclarse con otras fibras, esto la hace muy versátil, y de la más utilizada en el mundo.
-          .py-4.py-md-5.tab1(titulo="Rayón")
+            p.mb-0 Es una fibra textil de origen vegetal, que nace alrededor de las semillas de la planta del mismo nombre, su principal característica es que permite la aireación, lo cual hace que las telas fabricadas con esta fibra produzcan sensación de frescura al usarlas. Esta fibra permite facilidad de tejer y de mezclarse con otras fibras, esto la hace muy versátil, y de la más utilizada en el mundo.
+          .py-4.py-md-5.tab1(titulo="Rayón o viscosa")
             p.mb-0 Es una fibra artificial manufacturada que luego de un proceso químico, el resultante es regenerado e introducido en orificios formado filamentos para luego hacer el tejido. Se utiliza para fabricar prendas cómodas  y su apariencia es similar algodón o a la seda.
           .py-4.py-md-5.tab1(titulo="Lino")
             p.mb-0 Esta fibra se origina en la planta del mismo nombre y se utiliza para construir un tejido muy llamativo llamado igual. Sus características más valoradas son la frescura, la comodidad y la elegancia, además  se utiliza para confeccionar  ropa de hogar. 
@@ -100,7 +100,7 @@
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Fabricación
-              p pueden estar elaboradas en un telar con hilos perpendiculares (urdimbre), e hilos horizontales (trama), a este tipo de tejido con dos hilos se le conoce como #[strong tejido plano], también existen tejidos realizados por una sola aguja, o sea un solo hilo que se va entrelazando, a ese se le denomina #[strong tejido de punto].
+              p Pueden estar elaboradas en un telar con hilos perpendiculares (urdimbre), e hilos horizontales (trama), a este tipo de tejido con dos hilos se le conoce como #[strong tejido plano], también existen tejidos realizados por una sola aguja, o sea un solo hilo que se va entrelazando, a ese se le denomina #[strong tejido de punto].
 
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
@@ -108,7 +108,7 @@
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Textura
-              p es una característica importante al momento de seleccionar, pues existen telas más suaves al tacto y teniendo en cuenta que las prendas de vestir están en contacto directo con la piel, al momento de elegir se debe considerar que existen telas con mejor o menor suavidad.
+              p Es una característica importante al momento de seleccionar, pues existen telas más suaves al tacto y teniendo en cuenta que las prendas de vestir están en contacto directo con la piel, al momento de elegir se debe considerar que existen telas con mejor o menor suavidad.
 
         .tarjeta-avatar-b.mb-5(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
@@ -116,7 +116,7 @@
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Elasticidad
-              p es la capacidad de estirar su longitud y volverla a recobrar, esto ayuda a definir qué prendas requieren esta característica al momento de fabricarla, las hay de mucha o poca elasticidad, por ejemplo, para ropa deportiva se requiere prendas elaboradas con telas de mucha elasticidad.
+              p Es la capacidad de estirar su longitud y volverla a recobrar, esto ayuda a definir qué prendas requieren esta característica al momento de fabricarla, las hay de mucha o poca elasticidad, por ejemplo, para ropa deportiva se requiere prendas elaboradas con telas de mucha elasticidad.
 
         .row.mb-5
           .col-lg-8(data-aos="fade-right")
@@ -145,7 +145,7 @@
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='gabardina') 
               .col-md-6.mb-4.mb-md-0
-                h5 gabardina
+                h5 Gabardina
                 p Compuesta por fibras de algodón, es de difícil planchado y su aspecto es de brillo. Se utiliza en la confección de pantalones, trajes, abrigos y vestidos.
             .row.justify-content-center
               .col-md-6
@@ -212,9 +212,9 @@
 
     .row.justify-content-center
       .col-lg-5(data-aos="fade-right")
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_1_Telas_Sena.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_2_Eslabones_de_confeccion.pptx')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-ppt.svg")
           .anexo__texto
             p #[strong Anexo.] Eslabones de confección.
       .col-lg-5(data-aos="fade-left")
@@ -360,6 +360,7 @@ export default {
 <style lang="sass" scoped>
 
 .nav-holder2
+  height: 410px;
   color: #FFF
   display: inline-block
   margin: 10px 5px
@@ -412,6 +413,7 @@ export default {
     padding: 1em
     z-index: 999
   img
+    height: 410px;
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
@@ -435,6 +437,7 @@ export default {
     object-fit: cover;
     object-position: center center;
 .nav-holder3
+  height: 410px;
   color: #FFF
   display: inline-block
   margin: 10px 5px
@@ -486,6 +489,7 @@ export default {
     bottom: 0
     padding: 1em
   img
+    height: 410px;
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top

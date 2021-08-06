@@ -75,7 +75,7 @@
                 td Telas, fibras, hilos, remaches.
               tr
                 td Tiempo	
-                td segundo, minuto, hora.	
+                td Segundo, minuto, hora.	
                 td Confección, bordado, lavandería, corte.
               tr
                 td Volumen	

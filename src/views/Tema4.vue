@@ -26,31 +26,31 @@
         TabsC(data-aos="flip-up")
           .py-4.py-md-5.tab1(titulo="Número de documento o consecutivo")
             .tarjeta--bg1.p-4
-              p.mb-0 para controlar los lotes de producción que se van ejecutando.
+              p.mb-0 Para controlar los lotes de producción que se van ejecutando.
 
           .py-4.py-md-5.tab1(titulo="Referencia")
             .tarjeta--bg1.p-4
-              p.mb-0 para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de hombre, dama, infantil, adulto, el color, la talla. 
+              p.mb-0 Para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de hombre, dama, infantil, adulto, el color, la talla. 
 
           .py-4.py-md-5.tab1(titulo="Descripción")
             .tarjeta--bg1.p-4
-              p.mb-0 además de la referencia o código, es importante que en este documento se describa el tipo de prenda que se va a someter a procesos de trazo y corte.
+              p.mb-0 Además de la referencia o código, es importante que en este documento se describa el tipo de prenda que se va a someter a procesos de trazo y corte.
 
           .py-4.py-md-5.tab1(titulo="Fechas")
             .tarjeta--bg1.p-4
-              p.mb-0 todas las fechas son importantes para poder hacer seguimiento. En producción es importante la información que tenga que ver con las fechas, como son de la elaboración del documento, del inicio de la producción, y de la terminación de la misma.
+              p.mb-0 Todas las fechas son importantes para poder hacer seguimiento. En producción es importante la información que tenga que ver con las fechas, como son de la elaboración del documento, del inicio de la producción, y de la terminación de la misma.
 
           .py-4.py-md-5.tab1(titulo="Cliente")
             .tarjeta--bg1.p-4
-              p.mb-0 muy importante que en la orden de producción esté reseñado el nombre del cliente al que se le va a trabajar. 
+              p.mb-0 Muy importante que en la orden de producción esté reseñado el nombre del cliente al que se le va a trabajar. 
 
           .py-4.py-md-5.tab1(titulo="Cantidad")
             .tarjeta--bg1.p-4
-              p.mb-0 esta información es definitiva, se referencia cantidad por talla, color y cantidad total. En el cuadro que se consignan las tallas y las cantidades se puede aprovechar para nombrar las tallas por números o letras, y comercialmente tienen sus equivalencias. 
+              p.mb-0 Esta información es definitiva, se referencia cantidad por talla, color y cantidad total. En el cuadro que se consignan las tallas y las cantidades se puede aprovechar para nombrar las tallas por números o letras, y comercialmente tienen sus equivalencias. 
 
           .py-4.py-md-5.tab1(titulo="Identificación de tallas")
             .tarjeta--bg1.p-4
-              p.mb-0 existen otros criterios para la identificación de las tallas a producir, como si es ropa interior o exterior, cuando son prendas superiores o inferiores, cuando son prendas junior, infantiles o de adulto, cuando son prendas de dama u hombre.
+              p.mb-0 Existen otros criterios para la identificación de las tallas a producir, como si es ropa interior o exterior, cuando son prendas superiores o inferiores, cuando son prendas junior, infantiles o de adulto, cuando son prendas de dama u hombre.
 
     .row.justify-content-center.mb-5
       .col-lg-8.border_1
@@ -121,16 +121,17 @@
       h5 Materias primas
       p Se relaciona cuáles materias primas se utilizan en esta prenda de vestir, su composición, su nombre comercial, el consumo y en algunas ocasiones el proveedor.
     .tarjeta--bg2.p-4(data-aos="fade-left")
-      h5 Otras especificaciones
-      p También trae especificaciones de costuras, máquinas, puntadas por pulgada, medidas, características de terminado, y un dibujo plano de la prenda de vestir. 
-    .tarjeta--bg3.p-4.mb-5(data-aos="fade-right")
       h5 Insumos
       p En la ficha técnica vienen señalados cuales insumos están incorporados en la prenda, cuáles son sus calidades, sus dimensiones, y sus cantidades por prenda, adicional señalan la posición donde van colocados estos insumos. En esta área están los botones, las cremalleras, los hilos, los elásticos, las marquillas, las etiquetas, las hebillas, los broches, etc.
+    .tarjeta--bg3.p-4.mb-5(data-aos="fade-right")
+      h5 Otras especificaciones
+      p También trae especificaciones de costuras, máquinas, puntadas por pulgada, medidas, características de terminado, y un dibujo plano de la prenda de vestir. 
+    
 
     .row.justify-content-center.mb-5(data-aos="slide-down")
       .col-lg-8
         p.text-center.mb-5 
-          strong Información que conforma la ficha técnica.
+          strong Información que conforma la ficha técnica
         figure
           img.img-a(src='@/assets/curso/tema_4/img_2.svg', alt='') 
         figcaption Nota. Chi, B. (2020).

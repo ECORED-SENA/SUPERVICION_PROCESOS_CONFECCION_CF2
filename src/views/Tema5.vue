@@ -13,11 +13,13 @@
         .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
           p En el área de confecciones de prendas de vestir, una de las funciones importantes a realizar es la relación de los materiales e insumos y el uso de estos en los procesos productivos necesarios para obtener prendas de vestir. En esta área no se define cuáles insumos llevan los vestuarios, esa actividad se realiza en el área de diseño, también conocida, como investigación y desarrollo.
 
+        p.mb-5 El encargado de producción no es quien define las materias primas que llevan las prendas de vestir, ni las cantidades unitarias, sin embargo, dentro de sus funciones está el comprender todo lo relacionado con esta actividad y determinar necesidades para los lotes a producir. Por ese motivo hace parte de sus competencias las siguientes actividades:
+
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             .border--bg1.p-3
               .tarjeta--bg5.p-4
-                p.mb-0 Identificar los materiales e insumos que llevan las prendas de vestir, esta información viene en las fichas técnicas, y/o en las muestras iniciales o muestras físicas. Allí vienen definidos cuales son, y en que posiciones van. En las muestras iniciales y en las fichas técnicas vienen especificados: Los insumos que se van a utilizar en los lotes de producción
+                p.mb-0 Identificar los materiales e insumos que llevan las prendas de vestir, esta información viene en las fichas técnicas, y/o en las muestras iniciales o muestras físicas. Allí vienen definidos cuales son, y en que posiciones van. En las muestras iniciales y en las fichas técnicas vienen especificados: los insumos que se van a utilizar en los lotes de producción.
           .col-lg-6.d-flex(data-aos="fade-left")
             .border--bg2.p-3
               .tarjeta--bg2.p-4.d-flex
@@ -46,7 +48,7 @@
           .list__txt
             h5.m-top Cálculo de consumo de hilo
 
-        p.mb-5(data-aos="zoom-in") Desde Diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
+        p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
 
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -55,14 +57,19 @@
           .col-lg-8(data-aos="fade-down-left")
             TabsA.color-acento-contenido.mb-5
               .tarjeta.tarjeta--bg4.p-4(titulo="El color")
+                h4 El color
                 p Se define de acuerdo con el diseño, la silueta, las tendencias, y el propósito del diseñador.
               .tarjeta.tarjeta--bg4p-4(titulo="El calibre")
+                h4 El calibre
                 p La resistencia o el grosor, se define de acuerdo con el gramaje o peso de las telas, también según el tipo de costura que se va a hacer con él.
               .tarjeta.tarjeta--bg4.p-4(titulo="La composición")
+                h4 La composición
                 p Según la tela, pero se tienen muy presente los procesos subsiguientes como lavados fuertes y teñidos. Por ejemplo, si la prenda se va a teñir, la tela debe ser 100% algodón y el hilo también. Algunas veces se confecciona con el hilo del color al que se va a teñir.
               .tarjeta.tarjeta--bg4.p-4(titulo="La ubicación del hilo")
+                h4 La ubicación del hilo
                 p Hay hilos que van al pespunte (derecho de la tela), otros van al amarre (bobina) y otros en el filete o la puntada de seguridad, de acuerdo con la posición donde va se define que hilo se necesita.  Para calcular la cantidad de hilo requerido para una prenda de vestir y para un lote de producción hay que tener en cuenta las máquinas donde están programadas las operaciones de confección y por ende el tipo de puntada que tiene cada una.
               .tarjeta.tarjeta--bg4.p-4(titulo="La puntada")
+                h4 La puntada
                 p Dentro de toda la información que viene de diseño, también se hace referencia al tipo de puntada que quieren. Al definir el tipo de puntada entonces se conoce la relación del hilo del pespunte (aguja), hilo de amarre (bobina) y el hilo de cadeneta. Hasta ahí se llevan elementos importantes para el cálculo, máquina, tipo de costura,  posición del hilo, el tipo de tejido, las puntadas por pulgada (# de puntadas que hay en una longitud de una pulgada), y la medida de la longitud de la costura. 
 
         p.BorTit(data-aos="zoom-in")  Tabla 5.  Relación de consumo de hilo.
@@ -147,11 +154,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 1
-                | Los datos de la tabla anterior se relacionan con un tejido con Incrementar desperdicio, o sea 
+                | Los datos de la tabla anterior se relacionan con un tejido con un espesor de 3 mm, aproximadamente.
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Hilo que no se utiliza o sobrante, así:
+                | Incrementar desperdicio, o sea hilo que no se utiliza o sobrante, así:
 
               li.pb-0
                 ul.lista-ul--color
@@ -267,7 +274,7 @@
         .tarjeta--bg2.p-4(data-aos="zoom-in")
           p.mb-0.text-center A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
 
-    p.BorTit(data-aos="zoom-in") Largo del trazo: 5,18 mt
+    p.BorTit(data-aos="zoom-in") Largo del trazo: 4 mt
     figure(data-aos="zoom-in")
       img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
@@ -283,6 +290,8 @@
       .col-lg-2
         .tarjeta--bg4.p-2
           h5.text-center.mb-0 Ejemplo 
+
+    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente, 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8.border_1
@@ -335,11 +344,11 @@
                 td 150	
                 td 50
               tr.text-center.td_bg1
-                td(colspan=2) Artículo	
-                td Proveedor: 	
-                td Presentación	
-                td Consumo por Prenda	 
-                td Total necesario:
+                td(colspan=2) ARTÍCULO	
+                td PROVEEDOR
+                td PRESENTACIÓ
+                td CONSUMO  POR PRENDA 
+                td TOTAL NECESARIO 
               tr.text-center
                 td(colspan=2) Tela principal	
                 td Texta	
@@ -365,7 +374,7 @@
                 td 2	
                 td 800
               tr.text-center
-                td(colspan=2) Bolsas.	
+                td(colspan=2) Bolsas	
                 td Plástica	
                 td Unidades	
                 td 1	
@@ -417,7 +426,7 @@
             td.text-danger 50 	
             td.text-danger 0
           tr.text-center.td_bg1
-            td ARTICULO
+            td ARTÍCULO
             td PROVEEDOR	
             td UNIDAD DE MEDIDA	
             td CONSUMO	 
@@ -466,13 +475,17 @@
             td $ 60.000
           tr.text-center
             td(colspan=4) TODOS LOS MATERIALES E INSUMOS QUE VAN INCORPORADOS EN LA PRENDA
-            td  TOTAL UNITARIO	  
-            td $ 15.050  
+            td 
+              h5 TOTAL UNITARIO	  
+            td 
+              h5 $ 15.050  
             td
           tr.text-center
             td(colspan=5)
-            td TOTAL LOTE	 
-            td $ 6.020.000,00 
+            td 
+              h5 TOTAL LOTE	 
+            td 
+              h5 $ 6.020.000,00 
 
     p.mb-5(data-aos="zoom-in") Para comprender este ejemplo (Ficha Cálculo de materiales e insumos), se debe tener presente los cálculos que se realizaron en la ficha de cálculo de consumo por lote, donde se realizó el cálculo de las cantidades necesarias de insumos y materiales para el lote de 400 camisas, ahora en esta tabla se entregan los valores a esos materiales e insumos para cada camisa y valor para todo el lote.
 

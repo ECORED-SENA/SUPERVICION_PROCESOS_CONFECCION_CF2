@@ -18,14 +18,14 @@
         .col-lg-6.mb-4.mb-lg-0
           p Para el desarrollo de sus actividades las empresas necesitan aprovisionarse de bienes y servicios para cumplir sus propósitos. La gestión del almacén se lleva a cabo a través de los inventarios en los que se detallan de forma ordenada los contenidos de bienes, que las empresas tienen en sus instalaciones. La información contenida en dichos inventarios forma un insumo importante para la empresa y sus operaciones comerciales, al mismo tiempo se provee información sobre materia prima necesaria para prestar los servicios. 
         .col-lg-6
-          p.BorTit Tabla 1. Imagen de actividad de inventario.
+          p.BorTit Figura 1. Imagen de actividad de inventario.
           figure
             img(src='@/assets/curso/tema_6/img_1.png', alt='') 
           figcaption Nota. Arrechedora, I. (2020).
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-5(data-aos="zoom-in") Observe el siguiente video, presentado por el Fondo Esperanza, donde se entregan tips, consejos y recomendaciones relacionadas con el inventario, se refuerza la definición, como clasificarlo, codificarlo, listarlo, prestar atención a la información mínima que se debe incluir:
+        p.mb-5(data-aos="zoom-in") Observe el siguiente video, presentado por el Fondo Esperanza, donde se entregan #[i tips], consejos y recomendaciones relacionadas con el inventario, se refuerza la definición, como clasificarlo, codificarlo, listarlo, prestar atención a la información mínima que se debe incluir:
 
         figure.mb-5(data-aos="slide-down")
           .video
@@ -35,7 +35,7 @@
     separador
 
     #t_6_1.titulo-segundo(data-aos="zoom-in")
-      .h4 6.1 Políticas empresariales de inventarios 
+      .h2 6.1 Políticas empresariales de inventarios 
 
     p(data-aos="zoom-in") Se definen como estrategias empresariales pensadas para administrar eficientemente los recursos materiales de la organización, potenciando así los procesos de calidad de servicio al cliente y minimizando costos de mantenimiento. 
 
@@ -82,7 +82,7 @@
     separador
 
     #t_6_2.titulo-segundo(data-aos="zoom-in")
-      .h4 6.2 Sistemas de inventarios
+      .h2 6.2 Sistemas de inventarios
 
     p.mb-5(data-aos="zoom-in") Un sistema de inventarios es una herramienta de gestión empleada para registrar el conjunto de elementos que interactúan entre sí  productos, áreas, cantidades, precios, fechas, documentos, informaciones, logística, embalajes, presentación. También incluye en este sistema, normas, métodos y procedimientos aplicados para que la elaboración de inventarios realmente cumpla con su finalidad de saber cuánta mercancía existe, los niveles de rotación de los productos, cuales están por acabarse o identificar aquellos próximos a caducar y se pueden controlar las existencias de forma manual o de forma sistematizada.
 
@@ -90,7 +90,7 @@
       .col-lg-7
 
         TabSpecial.color-acento-botones.mb-5(data-aos="zoom-in")
-          .py-3.py-md-4(titulo="Inventario\nmanual" :imagen="images[0]" :numero="numbers[0]") 
+          .py-3.py-md-4.mb-4.mb-lg-0(titulo="Inventario\nmanual" :imagen="images[0]" :numero="numbers[0]") 
             .border--bg4.mb-5
             .row.mb-5
               .col-lg-8.mb-3.mb-lg-0(data-aos="fade-down-left")
@@ -112,16 +112,20 @@
                     th(colspan=8) 
                       h4 DATOS APROXIMADOS A 10 PUNTADAS POR PULGADAS
                 tbody
-                  tr.text-center
+                  tr
                     td FECHA:	 	
                     td
                     td(colspan=4) EMPRESA XXX	
                     td(colspan=2) DOCUMENTO N°:
-                  tr.text-center
-                    td Producto
+                  tr
+                    td(colspan=2) PRODUCTO:
                     td 
-                    td(colspan=4) Producto:
-                    td(colspan=2) Proovedor:
+                    td(colspan=3) REFERENCIA O CÓDIGO:
+                    td(colspan=2) PROVEEDOR:
+                  tr
+                    td(colspan=3) REVISÓ:
+                    td(colspan=4) AUTORIZÓ:
+                    td
                   tr.text-center.td_bg1
                     td FECHA	
                     td ENTRADA
@@ -196,12 +200,16 @@
     separador
 
     #t_6_3.titulo-segundo(data-aos="zoom-in")
-      .h4 6.3 Funciones del inventario
+      .h2 6.3 Funciones del inventario
 
-    figure.mb-5(data-aos="slide-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/CEKjA_Usvn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Tutorial Req Materia Prima y consumo
+    .row.justify-content-center.mb-5
+      .col-lg-4(data-aos="fade-right")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p #[strong Anexo.] Funciones inventario
+
 
     p.text-center.mb-5(data-aos="slide-down") A continuación, se presenta el video tutorial para identificar la función del inventario, los requerimientos de materia prima y consumo    
 
@@ -213,7 +221,7 @@
     separador
 
     #t_6_4.titulo-segundo(data-aos="zoom-in")
-      .h4 6.4 Tipos de inventarios
+      .h2 6.4 Tipos de inventarios
 
     .row.justify-content-center
       .col-lg-10
@@ -222,7 +230,7 @@
               img.img-a(src='@/assets/curso/tema_6/img_7.svg' alt='AvatarTop')
             .tarjeta.tarjeta--bg1
               .p-4
-                h5 Inventario de materia prima e Insumos 
+                h5 Inventario de materia prima e insumos 
                 p Se refiere a los elementos necesarios al inicio del proceso, y que se requieren para fabricar prendas de vestir.
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-left")
             .tarjeta-avatar-b__img
@@ -236,8 +244,8 @@
               img.img-a(src='@/assets/curso/tema_6/img_9.svg' alt='AvatarTop')
             .tarjeta.tarjeta--bg1
               .p-4
-                h5 Inventario de Producto terminado
-                p Son los que son transferidos de la sala de producción a la bodega de despachos, porque cumplen con el 100% de su proceso de elaboración. Los productos terminados también requieren un control de existencias.
+                h5 Inventario de producto terminado
+                p Son los que son transferidos de la sala de producción a la bodega de despachos, porque cumplen con el 100 % de su proceso de elaboración. Los productos terminados también requieren un control de existencias.
 
 
 

@@ -173,12 +173,6 @@ export default {
 
     {
       referencia:
-        'Chi, B. (2020, 19 Nov). Ficha Técnica en moda: ¿qué es y por qué usarla? [Blog]. SeamPedia.com',
-      link: 'https://seampedia.com/ficha-tecnica-en-moda/',
-    },
-
-    {
-      referencia:
         'Chi, B. (2020, 26 Nov). Ficha Técnica en moda: ¿qué información incluir? [Blog]. SeamPedia.com',
       link: 'https://seampedia.com/ficha-tecnica-en-moda/',
     },
@@ -223,57 +217,57 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Ancho de la tela:',
+      termino: 'Ancho de la tela',
       significado:
         'Longitud determinada por la longitud de los hilos a lo ancho del telar, trama.',
     },
     {
-      termino: 'Calidad:',
+      termino: 'Calidad',
       significado:
         'Conjunto de especificaciones a cumplir, para dar satisfacción a una necesidad y expectativa del cliente.',
     },
     {
-      termino: 'Consumo Promedio:',
+      termino: 'Consumo Promedio',
       significado:
         'Cantidad de materiales e insumos necesarios para la construcción de una prenda de vestir y/ o un servicio del sistema moda.',
     },
     {
-      termino: 'Investigación:',
+      termino: 'Investigación',
       significado:
         'Indagar tendencias, colores, procesos, utilizando como fuentes ferias, internet, desfiles. Desarrollo: elaborar prototipos con la anterior información.',
     },
     {
-      termino: 'Ficha Técnica:',
+      termino: 'Ficha Técnica',
       significado:
         'Documento que contiene información que orienta los procesos para construir muestras y lotes de producción.',
     },
     {
-      termino: 'Marquilla Instrucción lavado:',
+      termino: 'Marquilla Instrucción lavado',
       significado:
         'Elemento que va fijado en la prenda que contiene información sobre los cuidados que hay que tener al lavar las prendas.',
     },
     {
-      termino: 'Producción:',
+      termino: 'Producción',
       significado:
         'Conjunto de actividades que agregan valor para obtener un bien o un servicio.',
     },
     {
-      termino: 'Sistema:',
+      termino: 'Sistema',
       significado:
         'Conjunto de partes que interactúan, para conseguir el mismo objetivo, con excelente comunicación, y a la misma velocidad.',
     },
     {
-      termino: 'Tejido:',
+      termino: 'Tejido',
       significado:
         'Conjunto de hilos entrelazados, con características de peso, suavidad, composición, y volumen.',
     },
     {
-      termino: 'Trazo:',
+      termino: 'Trazo',
       significado:
         'Dibujo de los moldes sobre la tela o sobre un papel que tenga las medidas de la tela que se va a trabajar, en las cantidades y tallas que se requieran.',
     },
     {
-      termino: 'O.P.:',
+      termino: 'O.P.',
       significado:
         'Orden de producción: documento que describe de manera detallada las cantidades de los lotes a producir.',
     },
@@ -338,6 +332,40 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Pedro Luis Sossa Ramírez',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana María Ceballos Gutiérrez',
+        cargo: 'Asesora metodologa diseño y desarrollo curricular',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia ',
+      },
+      {
+        nombre: 'Giovanna Escobar',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Morales',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucia Perilla M',
+        cargo: 'Revisión pedagógica y metodológica',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -352,13 +380,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Ivan Uribe Ortiz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ricardo Alfonso González Vargas',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

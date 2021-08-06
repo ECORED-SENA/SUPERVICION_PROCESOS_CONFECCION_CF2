@@ -81,22 +81,22 @@
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
-              tr
+              tr.text-center
                 th(colspan=7) 
                   h4 INDUSTRIA DE ROPA
                   p (Nombre de empresa, Dirección, Teléfono, Correo)
             tbody
-              tr.text-center
-                td(colspan=2) FECHA: Sep. 2/21	
+              tr.text-center.td_bg1
+                td(colspan=2) FECHA: sep. 2/21	
                 td(colspan=2) COLECCIÓN #001	
-                td(colspan=3) TOTAL REFERE:  6
-              tr.text-center
-                td(colspan=2) TELAS: Varias 	
+                td(colspan=3) TOTAL REFERENCIAS:  6
+              tr.text-center.td_bg1
+                td(colspan=2) TELAS: varias 	
                 td(colspan=2) FECHA INICIO: 05/ 3/21	
                 td(colspan=3) FECHA FIN: 05/30/21
               tr.text-center 
                 td(colspan=7) Las referencias que empiecen por 10 son dama, las que empiecen por 30 son hombre.
-              tr.text-center
+              tr.text-center.td_bg1
                 td 
                   h5 REF	
                 td 
@@ -113,10 +113,11 @@
                   h5 M/
               tr.text-center
                 td 1001	
-                td Bota 
-                td ancha	
-                td Piel de durazno	
+                td Bota ancha
+                td Piel de durazno		
                 td 150
+                td 
+                td
                 td
               tr.text-center
                 td 1002	
@@ -124,17 +125,23 @@
                 td Kiss	
                 td 150
                 td
+                td
+                td
               tr.text-center
                 td 1003	
                 td Falda	
                 td Bonaire	
                 td 150
                 td
+                td
+                td
               tr.text-center
                 td 3001	
                 td Jean clásico	
                 td Artic	
                 td 200
+                td
+                td
                 td
 
         p.text-center.mb-5 En el siguiente recurso de aprendizaje, se debe prestar atención a los elementos que componen el presupuesto de producción:
@@ -177,7 +184,7 @@
                   img.img-a(src='@/assets/curso/tema_3/img_9.png', alt='') 
               .col-md-6.mb-4.mb-md-0
                 h5 Para poder presupuestar recursos es importante:
-                p Establecer la cantidad de materiales disponibles: esto se conoce como inventario inicial, en el que se define cuánta materia prima y cuántos insumos de poseen a la fecha de inicio de la producción.
+                p Establecer la cantidad de materiales disponibles: esto se conoce como inventario inicial, en el que se define cuánta materia prima y cuántos insumos se poseen a la fecha de inicio de la producción.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
@@ -193,7 +200,7 @@
 
         p.mb-5.text-center A continuación, se presenta un ejemplo de un caso en el que se diligencia la ficha de presupuestos:
 
-        p.mb-5 En una compañía el estimado de ventas es de 500 unidades de camisetas en un período de un mes. La empresa tiene como política programar el 15% adicional al pedido, para resolver imprevistos que sucedan durante la producción, y al revisar en la bodega, se encuentran, que tienen 100 camisetas. En la siguiente tabla 3 se ilustra la solución al ejemplo planteado.
+        p.mb-5 En una compañía el estimado de ventas es de 500 unidades de camisetas en un período de un mes. La empresa tiene como política programar el 15% adicional al pedido, para resolver imprevistos que sucedan durante la producción, y al revisar en la bodega, se encuentran, que tienen 100 camisetas. En la siguiente tabla se ilustra la solución al ejemplo planteado.
 
         .row
           .col-lg-8(data-aos="fade-right")
