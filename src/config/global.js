@@ -153,11 +153,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -227,7 +222,7 @@ export default {
         'Conjunto de especificaciones a cumplir, para dar satisfacción a una necesidad y expectativa del cliente.',
     },
     {
-      termino: 'Consumo Promedio',
+      termino: 'Consumo promedio',
       significado:
         'Cantidad de materiales e insumos necesarios para la construcción de una prenda de vestir y/ o un servicio del sistema moda.',
     },
@@ -237,12 +232,12 @@ export default {
         'Indagar tendencias, colores, procesos, utilizando como fuentes ferias, internet, desfiles. Desarrollo: elaborar prototipos con la anterior información.',
     },
     {
-      termino: 'Ficha Técnica',
+      termino: 'Ficha técnica',
       significado:
         'Documento que contiene información que orienta los procesos para construir muestras y lotes de producción.',
     },
     {
-      termino: 'Marquilla Instrucción lavado',
+      termino: 'Marquilla instrucción lavado',
       significado:
         'Elemento que va fijado en la prenda que contiene información sobre los cuidados que hay que tener al lavar las prendas.',
     },

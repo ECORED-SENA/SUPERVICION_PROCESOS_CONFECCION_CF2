@@ -291,7 +291,7 @@
         .tarjeta--bg4.p-2
           h5.text-center.mb-0 Ejemplo 
 
-    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente, 
+    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8.border_1
@@ -346,7 +346,7 @@
               tr.text-center.td_bg1
                 td(colspan=2) ARTÍCULO	
                 td PROVEEDOR
-                td PRESENTACIÓ
+                td PRESENTACIÓN
                 td CONSUMO  POR PRENDA 
                 td TOTAL NECESARIO 
               tr.text-center
@@ -399,7 +399,7 @@
 
             p A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
 
-    p.BorTit Tabla 6. Ficha de cálculo de consumo por lote.
+    p.BorTit Tabla 7. Ficha de cálculo de consumo por lote.
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
       table
         thead
