@@ -274,7 +274,7 @@
         .tarjeta--bg2.p-4(data-aos="zoom-in")
           p.mb-0.text-center A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
 
-    p.BorTit(data-aos="zoom-in") Largo del trazo: 4 mt
+    p.BorTit(data-aos="zoom-in") Largo del trazo: 4 m
     figure(data-aos="zoom-in")
       img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).

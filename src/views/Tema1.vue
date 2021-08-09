@@ -259,28 +259,17 @@
         .cajon.color-secundario.p-4
           p.mb-0 Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
 
-    .row.justify-content-center.mb-3
+    //.row.justify-content-center.mb-3
       .col-lg-6
         p.text-center Se puede profundizar sobre los materiales utilizados en el desarrollo de colecciones de moda en el siguiente enlace:
 
-    .row.justify-content-center
+    //.row.justify-content-center
       .col-lg-4
         a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Pag" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[strong Enlace web]. Materiales e insumos para vestuario.
-
-       
-
-
-
-
-
-
-
-
-              
+            p #[strong Enlace web]. Materiales e insumos para vestuario.              
 
 </template>
 
