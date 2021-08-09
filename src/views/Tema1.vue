@@ -212,7 +212,7 @@
 
     .row.justify-content-center
       .col-lg-5(data-aos="fade-right")
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_2_Eslabones_de_confeccion.pptx')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/eslabones_de_confeccion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-ppt.svg")
           .anexo__texto
